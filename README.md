@@ -13,6 +13,11 @@ Global e-commerce and manufacturing supply chains face severe financial drainage
 
 ---
 
+## Dashboard Preview
+![Dashboard Preview](dashboards/dashboard_preview.png)
+
+---
+
 ##  End-to-End Pipeline Architecture
 
 ```text
@@ -85,24 +90,24 @@ cd ChurnGuard
 pip install streamlit pandas numpy scikit-learn xgboost shap mlflow joblib matplotlib
 ``` 
 -->
+
 ###  Step 1: Preprocess Data:
 ```bash
 python notebooks/preprocess.py
 
 ```
-###  Step 2: Train Models & Track via MLflow:
+###  Step 2: Train Models & Log via MLflow:
 ```bash
 python notebooks/train.py
 
 ```
-###  Step 3: Compute Explainability & Financial Simulation:
+###  Step 3: Generate BI Export:
 ```bash
-python notebooks/explain_model.py
-python notebooks/business_impact.py
+python notebooks/export_for_bi.py
 
 ```
-###  Step 4: Launch the Interactive Dashboard:
+###  Step 4: Open Dashboard:
 ```bash
-streamlit run app.py
+Load dashboards/supply_chain_bi_ready.csv into Power BI Desktop or open your saved .pbix file.
 
 ```
