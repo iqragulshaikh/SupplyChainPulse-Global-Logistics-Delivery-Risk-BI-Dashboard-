@@ -1,10 +1,10 @@
-# 📦 SupplyChainPulse: Global Logistics & Delivery Risk BI Dashboard
+#  SupplyChainPulse: Global Logistics & Delivery Risk BI Dashboard
 
 > An end-to-end data science and business intelligence platform designed to predict global supply chain delivery failures, analyze geographic bottlenecks, evaluate financial risk exposure, and deliver actionable insights through professional BI tooling.
 
 ---
 
-## 🎯 Business Objective & Problem Statement
+##  Business Objective & Problem Statement
 
 Global e-commerce and manufacturing supply chains face severe financial drainage due to delivery delays, carrier bottlenecks, and unexpected transit failures. **SupplyChainPulse** was engineered to solve core logistics challenges:
 1. **Risk Prediction:** Forecast delivery failure risks using advanced machine learning models (RandomForest & XGBoost).
@@ -13,7 +13,7 @@ Global e-commerce and manufacturing supply chains face severe financial drainage
 
 ---
 
-## 🔄 End-to-End Pipeline Architecture
+##  End-to-End Pipeline Architecture
 
 ```text
 [Raw Global Logistics Dataset (`DataCoSupplyChainDataset.csv`)] 
